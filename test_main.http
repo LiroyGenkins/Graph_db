@@ -1,0 +1,14 @@
+# Test endpoints
+
+GET http://127.0.0.1:8000/test/name='Абахова Кира Егоровна'
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/test/name='Недовесков Владимир Иванович'
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/test/name='Ахромеева Алина Ивановна'
+Accept: application/json
