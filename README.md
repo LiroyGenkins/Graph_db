@@ -1,4 +1,4 @@
-# Graph_db_fastApi_rest
+# Graph_db
 REST сервис для доступа к графовой БД Nebula
 
 # Требования:
@@ -8,8 +8,8 @@ REST сервис для доступа к графовой БД Nebula
 # Установка и остановка сервиса
 ## Для запуска необходимо:
 ```
-git clone https://github.com/LiroyGenkins/Graph_db_fastApi_rest.git
-cd Graph_db_fastApi_rest  
+git clone https://github.com/LiroyGenkins/Graph_db.git
+cd Graph_db 
 setup.bat 
 uvicorn main:app --reload
 ```
