@@ -1,5 +1,4 @@
-python -m venv venv 
+python -m venv venv  
+venv\Scripts\python.exe -m pip install --upgrade pip
+venv\Scripts\python.exe -m pip install -r requirements.txt
 venv\Scripts\activate.bat 
-pip install --upgrade pip
-pip install -r requirements.txt 
-uvicorn main:app --reload
